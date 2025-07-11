@@ -1,5 +1,5 @@
 # Titre : Masterclass sur l’Architecture Transformer et ses Fondements Mathématiques
-
+![Transformer](https://miro.medium.com/v2/resize:fit:1400/1*uk-iU8FJuH1S_wXeiFZWOw.png)
 ## Présentation :
 Cette masterclass propose une exploration approfondie de l’architecture Transformer — le socle des modèles de pointe tels que BERT et DistilBERT. Conçue pour les chercheurs, ingénieurs et apprenants avancés, elle allie théorie rigoureuse et mise en pratique, en mettant l’accent sur les principes mathématiques qui sous-tendent les mécanismes d’attention et en guidant les participants à travers des implémentations concrètes.
 
