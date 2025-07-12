@@ -23,8 +23,10 @@ La masterclass est organisée en modules thématiques :
 
 ## Ateliers pratiques :
 - Atelier 1 : Manipulation de vecteurs et matrices en Python (NumPy et PyTorch)
-- Atelier 2 : Implémentation du mécanisme d’attention (attention scalaire et attention multi-tête)
-- Atelier 3 : Fine-tuning de BERT ou DistilBERT sur une tâche NLP (ex. : analyse de sentiments, questions-réponses)
+- Atelier 2 : Implementation d'un transformer based model de zero pour predire le mot suivant dans une phrase donnèe
+- Atelier 3 : Implémentation du mécanisme d’attention (attention scalaire et attention multi-tête)
+- Atelier 4 : Fine-tuning de BERT ou DistilBERT sur une tâche NLP (ex. : analyse de sentiments, questions-réponses)
+
 
 ## Prérequis :
 - Maîtrise du langage Python
@@ -38,10 +40,47 @@ La masterclass est organisée en modules thématiques :
 - Lectures recommandées et articles de recherche
 - Accès à un forum privé pour les échanges et questions
 
+
+## Les Labs sont executables dans google colab ou en local
+### Pour google colab
+
+Il sufit de cliquer sur l'icon de colab au debut du notebook et faire une `copie` dans votre `drive` avant toute modification
+
+### Pour local
+
+Suivez les intructions suivantes:
+# clone du repo
+```bash
+git clone  https://github.com/Umbaji/Togo-Data-Lab-Masterclass.git
+```
+# Installation des dépendances
+
+## Prérequis
+- Python 3.10 ([Téléchargement](https://www.python.org/downloads/))
+- `pip` (normalement inclus avec Python 3.10)
+
+## Création de l'environnement virtuel
+
+### Linux/macOS
+```bash
+python3.10 -m venv venv
+source venv/bin/activate
+```
+
+### Windows
+```bash
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+#### Puis installer avec:(optionnel puisque les commandes d'installations se trouvent dans les notebooks)
+```bash
+pip install -r requirements.txt
+```
 ## Licence :
 Tous les supports sont distribués sous licence Creative Commons Attribution - NonCommercial - ShareAlike 4.0 International.
 
 ## Contact :
-Pour toute question, retour ou proposition de collaboration, veuillez écrire à : contact@umbaji.org
+Pour toute question, retour ou proposition de collaboration, veuillez écrire à : contact@umbaji.org ou  contact@datalab.gouv.tg
 
 Décortiquons ensemble les mathématiques derrière les modèles qui transforment l’intelligence artificielle.
